@@ -22,6 +22,7 @@ namespace SQLTest3
         public Form1()
         {
             InitializeComponent();
+            passBox.PasswordChar = '*'; // sets input in textBox *
         }
 
         private void insertBtn_Click(object sender, EventArgs e)

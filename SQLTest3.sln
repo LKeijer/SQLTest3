@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLTest3", "SQLTest3\SQLTest3.csproj", "{9F0BAF8F-179F-471E-BF10-32DDB7E5AFD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginFunction", "SQLTest3\LoginFunction.csproj", "{9F0BAF8F-179F-471E-BF10-32DDB7E5AFD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDataOverview", "GetDataOverview\GetDataOverview.csproj", "{F72E1245-9020-4DA3-BA16-1B8FE0577816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9F0BAF8F-179F-471E-BF10-32DDB7E5AFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F0BAF8F-179F-471E-BF10-32DDB7E5AFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F0BAF8F-179F-471E-BF10-32DDB7E5AFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72E1245-9020-4DA3-BA16-1B8FE0577816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72E1245-9020-4DA3-BA16-1B8FE0577816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72E1245-9020-4DA3-BA16-1B8FE0577816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72E1245-9020-4DA3-BA16-1B8FE0577816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

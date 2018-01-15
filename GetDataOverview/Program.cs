@@ -4,9 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-
-namespace SQLTest3
+namespace GetDataOverview
 {
     static class Program
     {
