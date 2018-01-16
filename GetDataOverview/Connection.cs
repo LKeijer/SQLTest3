@@ -14,12 +14,15 @@ using System.Data.OleDb;
 
 namespace GetDataOverview
 {
+
     class Connection
     {
         private string connectionString = ConfigurationManager.ConnectionStrings["conString"].ConnectionString;
 
         public string ConnectDis
         {
+
+
             get
             {
                 return connectionString;
