@@ -68,7 +68,7 @@ namespace SQLTest3
             SqlConnection myConnection = new SqlConnection(connectionString);
 
             SqlCommand login = new SqlCommand("SELECT userName,password FROM Accounts WHERE userName=@user and password=@pass", myConnection);
-            login.Parameters.Add(new SqlParameter("@user", userInput));
+            login.Parameters.Add(new SqlParameter("@user", userInput)); 
             login.Parameters.Add(new SqlParameter("@pass", passInput));
             if (userInput != "" && passInput != "")
             {

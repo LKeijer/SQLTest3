@@ -34,6 +34,8 @@
             this.tableListBox = new System.Windows.Forms.ListBox();
             this.searchBox = new System.Windows.Forms.TextBox();
             this.searchBtn = new System.Windows.Forms.Button();
+            this.userLbl = new System.Windows.Forms.Label();
+            this.passLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,11 +92,31 @@
             this.searchBtn.UseVisualStyleBackColor = true;
             this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
+            // userLbl
+            // 
+            this.userLbl.AutoSize = true;
+            this.userLbl.Location = new System.Drawing.Point(12, 236);
+            this.userLbl.Name = "userLbl";
+            this.userLbl.Size = new System.Drawing.Size(55, 13);
+            this.userLbl.TabIndex = 6;
+            this.userLbl.Text = "Username";
+            // 
+            // passLbl
+            // 
+            this.passLbl.AutoSize = true;
+            this.passLbl.Location = new System.Drawing.Point(12, 259);
+            this.passLbl.Name = "passLbl";
+            this.passLbl.Size = new System.Drawing.Size(53, 13);
+            this.passLbl.TabIndex = 7;
+            this.passLbl.Text = "Password";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(851, 463);
+            this.Controls.Add(this.passLbl);
+            this.Controls.Add(this.userLbl);
             this.Controls.Add(this.searchBtn);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.tableListBox);
@@ -118,6 +140,8 @@
         private System.Windows.Forms.ListBox tableListBox;
         private System.Windows.Forms.TextBox searchBox;
         private System.Windows.Forms.Button searchBtn;
+        private System.Windows.Forms.Label userLbl;
+        private System.Windows.Forms.Label passLbl;
     }
 }
 
