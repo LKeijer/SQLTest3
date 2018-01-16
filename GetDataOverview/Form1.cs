@@ -16,6 +16,12 @@ namespace GetDataOverview
 {
     public partial class Form1 : Form
     {
+
+        DataSet dataSet = new DataSet();
+        private Connection connection = new Connection();
+        SqlDataAdapter commands = new SqlDataAdapter();
+        private string myConString;
+
         public Form1()
         {
             InitializeComponent();
@@ -23,6 +29,19 @@ namespace GetDataOverview
 
         private void getDataBtn_Click(object sender, EventArgs e)
         {
+            connection.ConnectDis = myConString;
+            SqlConnection myConnection = new SqlConnection(myConString);
+
+            SqlCommand getTableData = new SqlCommand("SELECT * FROM Accounts", myConnection);
+            try
+            {
+                myConnection.Open();
+
+            }
+            finally
+            {
+                myConnection.Close();
+            }
 
         }
 
